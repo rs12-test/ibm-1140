@@ -1,4 +1,4 @@
-#!/bin/env bash
+#!/bin/bash
 
 create_files1()
 {
@@ -6,7 +6,7 @@ filename1="$1-$2-$3-$4"
 touch $filename1
 #chtag -tc "$5" $filename1
 
-echo "â¬" > $filename1
+echo "â‚¬" > $filename1
 cat $filename1
 od -h $filename1
 }
@@ -22,7 +22,7 @@ filename1="$1-$2-$3-$4"
 touch $filename1
 #chtag -tc "$5" $filename1
 
-echo "â¬" > $filename1
+echo "â‚¬" > $filename1
 cat $filename1
 od -h $filename1
 }
