@@ -30,7 +30,7 @@ chtag -tc "$5" $filename1
 
 cat << EOF > $filename1
 123456789
-â‚^
+â‚¬
 abcdifghijklmnopqrstuvwxyz
 ABCDIFGHIJKLMNOPQRSTUVWXYZ
 ~!@#$%^&*(){}:;"'?/\|[]
