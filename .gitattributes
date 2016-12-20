@@ -4,4 +4,6 @@ file2 git-encoding=UTF-8 working-tree-encoding=IBM-1140
 file3 git-encoding=ISO8859-1 working-tree-encoding=IBM-1140
 file4 git-encoding=ISO8859-1 working-tree-encoding=IBM-1140
 *ascii_file* git-encoding=ISO8859-1 working-tree-encoding=IBM-1140
-*utf_file* git-encoding=ISO8859-1 working-tree-encoding=IBM-1140
+*utf_file* git-encoding=UTF-8 working-tree-encoding=IBM-1140
+*037_a** git-encoding=ISO8859-1 working-tree-encoding=IBM-1140
+*037_u* git-encoding=UTF-8 working-tree-encoding=IBM-1140
