@@ -13,10 +13,14 @@ abcdifghijklmnopqrstuvwxyz
 ABCDIFGHIJKLMNOPQRSTUVWXYZ
 ~!@#$%^&*(){}:;"'?/\|[]
 EOF
+cat $filename1
+od -h $filename1
 }
 
 create_files1 "037" "a" "9F" "rs12" "IBM-037"
 create_files1 "1140" "a" "9F" "rs12" "IBM-1140"
+create_files1 "037" "u" "9F" "rs12" "IBM-037"
+create_files1 "1140" "u" "9F" "rs12" "IBM-1140"
 
 create_files2()
 {
@@ -31,7 +35,11 @@ abcdifghijklmnopqrstuvwxyz
 ABCDIFGHIJKLMNOPQRSTUVWXYZ
 ~!@#$%^&*(){}:;"'?/\|[]
 EOF
+cat $filename1
+od -h $filename1
 }
 
+create_files2 "037" "a" "42" "rs12" "IBM-037"
+create_files2 "1140" "a" "42" "rs12" "IBM-1140"
 create_files2 "037" "u" "42" "rs12" "IBM-037"
 create_files2 "1140" "u" "42" "rs12" "IBM-1140"
