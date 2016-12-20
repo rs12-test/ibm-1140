@@ -1,0 +1,33 @@
+#!/bin/env bash
+
+create_files1()
+{
+filename1="$1-$2-$3-$4"
+touch $filename1
+#chtag -tc "$5" $filename1
+
+echo "â¬" > $filename1
+cat $filename1
+od -h $filename1
+}
+
+create_files1 "037" "a" "9F" "rs12" "IBM-037"
+create_files1 "1140" "a" "9F" "rs12" "IBM-1140"
+create_files1 "037" "u" "9F" "rs12" "IBM-037"
+create_files1 "1140" "u" "9F" "rs12" "IBM-1140"
+
+create_files2()
+{
+filename1="$1-$2-$3-$4"
+touch $filename1
+#chtag -tc "$5" $filename1
+
+echo "â¬" > $filename1
+cat $filename1
+od -h $filename1
+}
+
+create_files2 "037" "a" "42" "rs12" "IBM-037"
+create_files2 "1140" "a" "42" "rs12" "IBM-1140"
+create_files2 "037" "u" "42" "rs12" "IBM-037"
+create_files2 "1140" "u" "42" "rs12" "IBM-1140"

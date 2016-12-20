@@ -1,6 +1,6 @@
 .gitattributes git-encoding=ISO8859-1 working-tree-encoding=ISO8859-1
 README* git-encoding=ISO8859-1 working-tree-encoding=IBM-1140
-create_files git-encoding=ISO8859-1 working-tree-encoding=ISO8859-1
+create_files* git-encoding=ISO8859-1 working-tree-encoding=ISO8859-1
 cat_od_files git-encoding=ISO8859-1 working-tree-encoding=ISO8859-1
 *037-a** git-encoding=ISO8859-1 working-tree-encoding=IBM-037
 *037-u* git-encoding=UTF-8 working-tree-encoding=IBM-037
