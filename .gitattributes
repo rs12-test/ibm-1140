@@ -1,2 +1,2 @@
 .gitattributes git-encoding=ISO8859-1 working-tree-encoding=ISO8859-1
-\!.gitattributes git-encoding=ISO8859-1 working-tree-encoding=IBM-1140
+file1 git-encoding=ISO8859-1 working-tree-encoding=IBM-1140
